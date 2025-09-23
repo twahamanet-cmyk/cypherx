@@ -1,6 +1,10 @@
 {
   "name": "CypherX",
+<<<<<<< HEAD
   "version": "1.8.0",
+=======
+  "version": "1.7.7",
+>>>>>>> 3053cb1 (First commit for CypherX)
   "description": "The best Whatsapp bot",
   "main": "index.js",
   "engines": {
@@ -8,6 +12,7 @@
       "npm": ">= 10.x"
    },
   "scripts": {
+<<<<<<< HEAD
       "start": "node index.js",
       "dev": "nodemon index.js",
       "stop": "pkill -f node",
@@ -18,6 +23,18 @@
   "dependencies": {
         "adm-zip": "^0.5.16",
         "better-sqlite3": "^12.2.0",
+=======
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tylor",
+  "dependencies": {
+        "@whiskeysockets/baileys": "https://github.com/Dark-Xploit/Baileys/archive/refs/tags/v2.0.5.tar.gz",
+        "@rodrigogs/baileys-store" : "^1.0.1",
+        "adm-zip": "^0.5.16",
+        "better-sqlite3": "^11.10.0",
+>>>>>>> 3053cb1 (First commit for CypherX)
         "acrcloud": "^1.4.0",
         "awesome-phonenumber": "^7.4.0",
         "axios": "^1.8.3",
@@ -38,7 +55,10 @@
         "jimp": "^0.16.13",
         "lodash": "^4.17.21",
         "lolcatjs": "^2.4.3",
+<<<<<<< HEAD
         "mathjs": "^14.6.0",
+=======
+>>>>>>> 3053cb1 (First commit for CypherX)
         "megajs": "^1.3.2",
         "moment-timezone": "^0.5.45",
         "node-cache": "^5.1.2",
@@ -51,12 +71,21 @@
         "performance-now": "^2.1.0",
         "pino": "^8.14.1",
         "steno": "^1.0.0",
+<<<<<<< HEAD
         "sequelize": "^6.37.5",
         "sqlite3": "^5.1.7",
         "systeminformation": "^5.27.7",
+=======
+        "sequelize": "6.37.5",
+        "sqlite3": "5.1.7",
+>>>>>>> 3053cb1 (First commit for CypherX)
         "yt-search": "^2.12.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.19" 
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3053cb1 (First commit for CypherX)
